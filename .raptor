@@ -1,0 +1,5 @@
+{
+    "components.base.dir": "modules",
+    "modules.dir": "modules",
+    "rtld.file": "modules/rebootstrap/rebootstrap.rtld"
+}

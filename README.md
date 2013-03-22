@@ -1,4 +1,4 @@
-reboostrap
+Rebootstrap
 ==========
 
-Source code for the Reboostrap UI toolkit
+Source code for the Rebootstrap UI toolkit

@@ -1,0 +1,8 @@
+{
+    "raptor": {
+        "dependencies": [
+            {"module": "rebootstrap/twitter-bootstrap"},
+            "ButtonWidget.js"
+        ]
+    }
+}
