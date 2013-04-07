@@ -1,0 +1,7 @@
+<raptor-taglib>
+    <uri>rebootstrap</uri>
+    <import-taglib path="rebootstrap/buttons/Button/Button.rtld"/>
+    <import-taglib path="rebootstrap/nav/NavList/NavList.rtld"/>
+    <import-taglib path="rebootstrap/nav/NavItem/NavItem.rtld"/>
+    <import-taglib path="rebootstrap/nav/Nav/Nav.rtld"/>
+</raptor-taglib>

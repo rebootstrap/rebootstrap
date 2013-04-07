@@ -1,4 +1,0 @@
-<raptor-taglib>
-    <uri>rebootstrap</uri>
-    <import-taglib path="buttons/Button/Button.rtld"/>
-</raptor-taglib>

@@ -1,0 +1,10 @@
+<raptor-taglib>
+
+    <tag name="nav-list" 
+        handler-class="rebootstrap/nav/Nav/NavRenderer" 
+        extends="rebootstrap/nav/Nav">
+
+        <static-property name="type" value="list"/>
+    </tag>
+    
+</raptor-taglib>
