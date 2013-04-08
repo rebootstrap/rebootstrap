@@ -4,4 +4,6 @@
     <import-taglib path="rebootstrap/nav/NavList/NavList.rtld"/>
     <import-taglib path="rebootstrap/nav/NavItem/NavItem.rtld"/>
     <import-taglib path="rebootstrap/nav/Nav/Nav.rtld"/>
+    <import-taglib path="rebootstrap/containers/Tabs/Tabs.rtld"/>
+    <import-taglib path="rebootstrap/containers/Tab/Tab.rtld"/>
 </raptor-taglib>

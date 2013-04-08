@@ -1,0 +1,11 @@
+<raptor-taglib>
+
+    <tag name="tabs" renderer="rebootstrap/containers/Tabs/TabsRenderer">
+        
+        <!-- Support widget attributes -->
+        <attribute name="id" uri="widgets"/>
+
+        <variable name="_tabs"/>
+    </tag>
+    
+</raptor-taglib>

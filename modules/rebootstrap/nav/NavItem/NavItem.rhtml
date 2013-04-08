@@ -4,10 +4,12 @@
     name="rebootstrap/nav/NavItem"
     params="navItem,isDropdownMenu,nav">
     
-    <li w:widget="rebootstrap/nav/NavItemWidget" c:attrs="navItem.attrs">
+    <li w:widget="{?navItem.widget;$navItem.widget;rebootstrap/nav/NavItem/NavItemWidget}" 
+        c:attrs="navItem.attrs">
+
         <a c:attrs="navItem.anchorAttrs">
             <c:choose>
-                <c:when test="navItem.label">
+                <c:when test="navItem.label != null">
                     ${navItem.label}
                 </c:when>
                 <c:when test="navItem.invokeBody">

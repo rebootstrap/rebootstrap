@@ -1,6 +1,7 @@
 {
     "raptor": {
         "dependencies": [
+            {"module": "rebootstrap/nav/NavItem"},
             "Nav.css"
         ]
     }

@@ -1,5 +1,5 @@
 define.Class(
-    'rebootstrap/nav/NavItem/NavItemWidget',
+    'rebootstrap/containers/Tab/TabWidget',
     function(require, exports, module) {
         var logger = module.logger();
 
@@ -16,6 +16,10 @@ define.Class(
 
             events: ['click'],
 
-            renderer: 'rebootstrap/nav/NavItem/NavItemRenderer'
+            renderer: 'rebootstrap/nav/NavItem/NavItemRenderer',
+
+            show: function() { 
+                this.$("a").tab('show'); 
+            }
         };
     });

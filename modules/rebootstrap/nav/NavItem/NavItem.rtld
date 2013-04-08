@@ -2,7 +2,11 @@
 
 <raptor-taglib>
 
-    <tag name="nav-item" handler-class="rebootstrap/nav/NavItem/NavItemRenderer" dynamic-attributes="true">
+    <tag name="nav-item" 
+        handler-class="rebootstrap/nav/NavItem/NavItemRenderer" 
+        dynamic-attributes="true"
+        id="rebootstrap/nav/NavItem">
+
         <attribute name="type" type="string"/>
         <attribute name="label" type="string"/>
         <attribute name="item-id" type="string"/>

@@ -4,6 +4,7 @@
             { "module": "raptor/renderer" },
             { "module": "raptor/templating" },
             { "module": "rebootstrap/nav/Nav" },
+            {"module": "rebootstrap/nav/NavItem/render"},
             "NavRenderer.js",
             "Nav.rhtml"
         ]

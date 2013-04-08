@@ -5,6 +5,7 @@ define(
 
         return {
             render: function(input, context) {
+
                 var liClassParts = [];
                 
                 var nav = input._nav,
@@ -55,12 +56,10 @@ define(
                 }
                 else {
                     if (input.toggle) {
-                        input.anchorAttrs["href"] = "#";
                         input.anchorAttrs["data-toggle"] = (type === 'pills' || type === 'pill' ? 'pill' : 'tab');
                     }
-                    else {
-                        input.anchorAttrs["href"] = input.href ? input.href : "#";
-                    }    
+
+                    input.anchorAttrs["href"] = input.href ? input.href : "#"; 
                 }
 
                 templating.render('rebootstrap/nav/NavItem', {
