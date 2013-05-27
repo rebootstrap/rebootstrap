@@ -1,8 +1,0 @@
-{
-    "raptor": {
-        "dependencies": [
-            "css/bootstrap.css",
-            "js/bootstrap.js"
-        ]
-    }
-}

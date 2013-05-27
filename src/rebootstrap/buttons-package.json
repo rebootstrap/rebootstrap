@@ -1,0 +1,8 @@
+{
+    "raptor": {
+        "dependencies": [
+            "../../node_modules/bootstrap/js/bootstrap-button.js",
+            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/buttons.less" }
+        ]
+    }
+}

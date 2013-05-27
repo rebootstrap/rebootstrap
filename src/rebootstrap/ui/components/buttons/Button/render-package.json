@@ -1,0 +1,12 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "raptor/renderer" },
+            { "module": "raptor/templating" },
+            { "module": "raptor/templating/taglibs/widgets" },
+            { "module": "rebootstrap/ui/components/buttons/Button" },
+            "ButtonRenderer.js",
+            "Button.rhtml"
+        ]
+    }
+}

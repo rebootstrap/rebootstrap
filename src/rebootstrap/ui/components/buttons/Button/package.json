@@ -1,0 +1,10 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "raptor/widgets" },
+            { "module": "rebootstrap/base" },
+            { "module": "rebootstrap/buttons" },
+            "ButtonWidget.js"
+        ]
+    }
+}

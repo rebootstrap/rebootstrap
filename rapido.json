@@ -1,8 +1,8 @@
 {
-    "use": [
-        "raptorjs"
-    ],
-    "modules.dir": "modules",
-    "components.dir": "modules",
-    "rtld.file": "modules/rebootstrap.rtld"
+    "use": [],
+    "modules.dir": "src",
+    "modules.prefix": "rebootstrap",
+    "components.dir": "src",
+    "components.prefix": "rebootstrap/ui/components",
+    "rtld.file": "src/rebootstrap.rtld"
 }

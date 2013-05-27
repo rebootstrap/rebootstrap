@@ -1,0 +1,12 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "raptor/renderer" },
+            { "module": "raptor/templating" },
+            { "module": "rebootstrap/ui/components/nav/Nav" },
+            {"module": "rebootstrap/ui/components/nav/NavItem/render"},
+            "NavRenderer.js",
+            "Nav.rhtml"
+        ]
+    }
+}

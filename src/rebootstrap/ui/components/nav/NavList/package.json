@@ -1,0 +1,8 @@
+{
+    "raptor": {
+        "dependencies": [
+            {"module": "rebootstrap/ui/components/nav/Nav"},
+            "NavList.css"
+        ]
+    }
+}

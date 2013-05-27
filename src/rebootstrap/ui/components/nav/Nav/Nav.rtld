@@ -1,0 +1,14 @@
+<raptor-taglib>
+
+    <tag name="nav" handler-class="rebootstrap/ui/components/nav/Nav/NavRenderer" id="rebootstrap/ui/components/nav/Nav">
+        <attribute name="type" type="string"/>
+        <attribute name="active-item" type="string"/>
+        <attribute name="stacked" type="boolean"/>
+        
+        <!-- Support widget attributes -->
+        <attribute name="id" uri="widgets"/>
+        
+        <variable name="_nav"/>
+    </tag>
+    
+</raptor-taglib>

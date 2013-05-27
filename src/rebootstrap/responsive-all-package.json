@@ -1,0 +1,14 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/responsive-utilities.less" },
+            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/responsive-767px-max.less" },
+            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/responsive-768px-979px.less" },
+            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/responsive-768px-979px.less" },
+            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/responsive-1200px-min.less" },
+            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/responsive-navbar.less" }
+        ]
+    }
+}
+
+

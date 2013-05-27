@@ -1,0 +1,28 @@
+<c:template
+    xmlns:c="core"
+    xmlns:w="widgets"
+    name="rebootstrap/ui/components/nav/NavItem"
+    params="navItem,isDropdownMenu,nav">
+    
+    <li w:widget="{?navItem.widget;$navItem.widget;rebootstrap/ui/components/nav/NavItem/NavItemWidget}" 
+        c:attrs="navItem.attrs">
+
+        <a c:attrs="navItem.anchorAttrs">
+            <c:choose>
+                <c:when test="navItem.label != null">
+                    ${navItem.label}
+                </c:when>
+                <c:when test="navItem.invokeBody">
+                    <c:invoke function="navItem.invokeBody(nav)"/>
+                </c:when>
+            </c:choose>
+            
+            <b class="caret" c:if="isDropdownMenu"></b>
+        </a>
+        <ul class="dropdown-menu" c:if="isDropdownMenu">
+            <c:invoke function="navItem.invokeBody(nav)"/>
+        </ul>
+        
+    </li>
+
+</c:template>

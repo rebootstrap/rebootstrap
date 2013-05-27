@@ -1,8 +1,0 @@
-{
-    "raptor": {
-        "dependencies": [
-            {"module": "rebootstrap/nav/Nav"},
-            "NavList.css"
-        ]
-    }
-}

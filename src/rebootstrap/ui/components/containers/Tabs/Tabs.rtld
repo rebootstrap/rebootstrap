@@ -1,0 +1,26 @@
+<raptor-taglib>
+
+    <tag name="tabs" renderer="rebootstrap/ui/components/containers/Tabs/TabsRenderer">
+        
+        <!-- Support widget attributes -->
+        <attribute name="id" uri="widgets"/>
+
+        <variable name="_tabs"/>
+    </tag>
+    
+    <tag name="tab" 
+        renderer="rebootstrap/ui/components/containers/Tabs/TabTag"
+        dynamic-attributes="true">
+
+        <attribute name="type" type="string"/>
+        <attribute name="label" type="string"/>
+        <attribute name="active" type="boolean"/>
+        <attribute name="href" type="string"/>
+        
+        <!-- <attribute name="id" uri="widgets"/>
+        <attribute name="event-click" uri="widgets"/> -->
+        
+        <import-variable name="_tabs"/>
+    </tag>
+    
+</raptor-taglib>

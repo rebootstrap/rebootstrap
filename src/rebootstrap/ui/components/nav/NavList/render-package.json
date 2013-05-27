@@ -1,0 +1,12 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "raptor/renderer" },
+            { "module": "raptor/templating" },
+            { "module": "raptor/widgets" },
+            { "module": "raptor/templating/taglibs/widgets" },
+            { "module": "rebootstrap/ui/components/nav/Nav/render" },
+            { "module": "rebootstrap/ui/components/nav/NavList" }
+        ]
+    }
+}

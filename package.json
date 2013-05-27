@@ -1,25 +1,29 @@
 {
-    "name": "rebootstrap",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "ui",
-        "components",
-        "bootstrap"
-    ],
-    "repository": "",
-    "author": "Patrick Steele-Idem <pnidem@ebay.com>",
-    "contributors": [
-        "Patrick Steele-Idem <psteeleidem@ebay.com>"
-    ],
-    "readmeFilename": "README.md",
-    "raptor": {
-        "search-path": [
-            "modules"
-        ]
-    }
+  "name": "rebootstrap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "bootstrap"
+  ],
+  "repository": "",
+  "author": "Patrick Steele-Idem <pnidem@ebay.com>",
+  "contributors": [
+    "Patrick Steele-Idem <psteeleidem@ebay.com>"
+  ],
+  "readmeFilename": "README.md",
+  "raptor": {
+    "search-path": [
+      "src"
+    ]
+  },
+  "dependencies": {
+    "bootstrap": "git://github.com/twitter/bootstrap.git#v2.3.2",
+    "less": "~1.3.3"
+  }
 }

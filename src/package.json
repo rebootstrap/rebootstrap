@@ -1,0 +1,8 @@
+{
+    "raptor": {
+        "dependency-types": {
+            "rebootstrap-less": "rebootstrap/Dependency_rebootstrap-less"
+        }
+    }
+}
+    

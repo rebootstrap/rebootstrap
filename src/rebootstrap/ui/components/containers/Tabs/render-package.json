@@ -1,0 +1,13 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "raptor/renderer" },
+            { "module": "raptor/templating" },
+            { "module": "raptor/templating/taglibs/widgets" },
+            { "module": "rebootstrap/ui/components/containers/Tabs" },
+            "TabsRenderer.js",
+            "TabTag.js",
+            "Tabs.rhtml"
+        ]
+    }
+}

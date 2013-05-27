@@ -1,0 +1,8 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "rebootstrap/navs" },
+            "../../node_modules/bootstrap/js/bootstrap-tab.js"
+        ]
+    }
+}

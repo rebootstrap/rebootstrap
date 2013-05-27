@@ -1,9 +1,0 @@
-{
-    "raptor": {
-        "dependencies": [
-            { "module": "raptor/widgets" },
-            "TabWidget.js",
-            "Tab.css"
-        ]
-    }
-}

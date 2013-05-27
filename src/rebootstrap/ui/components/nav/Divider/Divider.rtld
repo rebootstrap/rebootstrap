@@ -1,0 +1,7 @@
+<raptor-taglib>
+
+    <tag name="divider" renderer="rebootstrap/ui/components/nav/Divider/DividerRenderer">
+        <import-variable name="_nav" />
+    </tag>
+    
+</raptor-taglib>

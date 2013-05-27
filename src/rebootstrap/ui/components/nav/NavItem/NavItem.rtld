@@ -1,0 +1,24 @@
+
+
+<raptor-taglib>
+
+    <tag name="nav-item" 
+        handler-class="rebootstrap/ui/components/nav/NavItem/NavItemRenderer" 
+        dynamic-attributes="true"
+        id="rebootstrap/ui/components/nav/NavItem">
+
+        <attribute name="type" type="string"/>
+        <attribute name="label" type="string"/>
+        <attribute name="item-id" type="string"/>
+        <attribute name="active" type="boolean"/>
+        <attribute name="toggle" type="string"/>
+        <attribute name="href" type="string"/>
+        
+        <attribute name="id" uri="widgets"/>
+        <attribute name="event-click" uri="widgets"/>
+        
+        <variable name="_nav"/>
+        <import-variable name="_nav" />
+    </tag>
+    
+</raptor-taglib>

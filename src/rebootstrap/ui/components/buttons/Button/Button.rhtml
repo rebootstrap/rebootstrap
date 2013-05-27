@@ -1,0 +1,26 @@
+<c:template
+    xmlns:c="core"
+    xmlns:w="widgets"
+    name="rebootstrap/ui/components/buttons/Button"
+    params="id,tag,rootAttrs,label,href">
+    
+    <c:def function="body()">
+        <c:choose>
+            <c:when c:test="label">
+                ${label}
+            </c:when>
+            <c:when c:test="tag.invokeBody">
+                <c:invoke function="tag.invokeBody"/>
+            </c:when>
+        </c:choose>
+        
+        <c:if test="data.isDropdown">
+            ${entity:nbsp}
+            <span class="caret"></span>
+        </c:if>
+    </c:def>
+    
+    <button id="${id}" w:widget="rebootstrap/ui/components/buttons/Button/ButtonWidget" c:attrs="rootAttrs">
+        <c:invoke function="body()"/>
+    </button>
+</c:template>
