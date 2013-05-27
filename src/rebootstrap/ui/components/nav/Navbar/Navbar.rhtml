@@ -3,11 +3,10 @@
     xmlns:w="widgets"
     xmlns:rb="rebootstrap"
     name="rebootstrap/ui/components/nav/Navbar"
-    params="brand,invokeBody,inverse,type">
+    params="invokeBody,inverse,type">
     
     <div class="navbar{?type; navbar-$type}{?inverse; navbar-inverse}">
         <div class="navbar-inner">
-            <a class="brand" href="#">$brand</a>
             <c:invoke function="invokeBody()" c:if="invokeBody"/>
         </div>
     </div>

@@ -1,0 +1,17 @@
+<c:template
+    xmlns:c="core"
+    xmlns:w="widgets"
+    name="rebootstrap/ui/components/nav/Collapse"
+    params="invokeBody">
+    
+    <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    
+    <div class="nav-collapse collapse">
+        <c:invoke function="invokeBody()" c:if="invokeBody"/>
+    </div>
+
+</c:template>

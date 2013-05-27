@@ -1,7 +1,6 @@
 <raptor-taglib>
 
     <tag name="navbar" renderer="rebootstrap/ui/components/nav/Navbar/NavbarRenderer">
-        <attribute name="brand" type="string"/>
         <attribute name="type" type="string"/>
         <attribute name="inverse" type="boolean"/>
         

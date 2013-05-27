@@ -1,6 +1,7 @@
 {
     "raptor": {
         "dependencies": [
+            { "module": "rebootstrap/navs" },
             { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/navbar.less" }
         ]
     }

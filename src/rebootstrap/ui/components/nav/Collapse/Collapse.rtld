@@ -1,0 +1,7 @@
+<raptor-taglib>
+
+    <tag name="collapse" renderer="rebootstrap/ui/components/nav/Collapse/CollapseRenderer">
+
+    </tag>
+    
+</raptor-taglib>

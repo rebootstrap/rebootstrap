@@ -8,8 +8,7 @@
             { "module": "rebootstrap/type" },
             { "module": "rebootstrap/code" },
             { "module": "rebootstrap/forms" },
-            { "module": "rebootstrap/tables" },
-            { "module": "rebootstrap/responsive-all" }
+            { "module": "rebootstrap/tables" }
         ]
     }
 }

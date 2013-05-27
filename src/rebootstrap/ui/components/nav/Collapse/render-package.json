@@ -1,0 +1,11 @@
+{
+    "raptor": {
+        "dependencies": [
+            { "module": "raptor/renderer" },
+            { "module": "raptor/templating" },
+            { "module": "rebootstrap/ui/components/nav/Collapse" },
+            "CollapseRenderer.js",
+            "Collapse.rhtml"
+        ]
+    }
+}
