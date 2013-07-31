@@ -1,0 +1,8 @@
+
+{
+    "raptor": {
+        "dependencies": [
+            "less/font-awesome.less"
+        ]
+    }
+}

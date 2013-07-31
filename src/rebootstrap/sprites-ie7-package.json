@@ -1,0 +1,7 @@
+{
+    "raptor": {
+        "dependencies": [
+            "../font-awesome/less/font-awesome-ie7.less"
+        ]
+    }
+}

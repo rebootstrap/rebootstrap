@@ -8,4 +8,5 @@
     <import-taglib path="rebootstrap/ui/components/nav/Navbar/Navbar.rtld"/>
     <import-taglib path="rebootstrap/ui/components/nav/Divider/Divider.rtld"/>
     <import-taglib path="rebootstrap/ui/components/nav/Collapse/Collapse.rtld"/>
+    <import-taglib path="rebootstrap/ui/components/icons/Icon/Icon.rtld"/>
 </raptor-taglib>

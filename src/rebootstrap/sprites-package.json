@@ -1,0 +1,7 @@
+{
+    "raptor": {
+        "dependencies": [
+            "../third-party/font-awesome/less/font-awesome.less"
+        ]
+    }
+}
