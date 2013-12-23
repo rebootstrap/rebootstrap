@@ -3,7 +3,7 @@
         "dependencies": [
             { "module": "rebootstrap/tooltips" },
             { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/popovers.less" },
-            "../../node_modules/bootstrap/js/bootstrap-popover.js"
+            "../../node_modules/bootstrap/js/popover.js"
             
         ]
     }
