@@ -3,7 +3,6 @@
         "dependencies": [
             { "module": "rebootstrap/scaffolding" },
             { "module": "rebootstrap/grid" },
-            { "module": "rebootstrap/layouts" },
             { "module": "rebootstrap/type" },
             { "module": "rebootstrap/code" },
             { "module": "rebootstrap/forms" },
