@@ -23,22 +23,15 @@ define.Class(
     function(raptor, require, exports, module) {
         "use strict";
 
-        var mixinsFixRegExp = /(\.input-block-level|\.clearfix|\.hide-text)\s*\{/g;
-        
         var cache = {};
         var mixinsResource = null;
+        var utilitiesResource = null;
 
         var resources = require('raptor/resources');
         var File = require('raptor/files/File');
-        
+
         var Dependency = function() {
             Dependency.superclass.constructor.apply(this, arguments);
-        };
-        
-        function fixMixins(source) {
-            return source.replace(mixinsFixRegExp, function(match, selector) {
-                return selector + '() {';
-            });
         };
 
         Dependency.prototype = {
@@ -51,7 +44,7 @@ define.Class(
                 }
 
                 variablesPath = variablesPath || context.config.getParam('rebootstrap.variables.path');
-                
+
 
                 if (variablesPath) {
                     variablesResource = resources.findResource(variablesPath)
@@ -61,7 +54,7 @@ define.Class(
                 }
 
                 mixinsResource = mixinsResource || resources.createFileResource(new File(__dirname, '../../node_modules/bootstrap/less/mixins.less'));
-                
+                utilitiesResource = utilitiesResource || resources.createFileResource(new File(__dirname, '../../node_modules/bootstrap/less/utilities.less'));
 
                 function add(resource, preprocess) {
                     var source = cache[resource.getURL()];
@@ -75,11 +68,12 @@ define.Class(
                 }
 
                 add(variablesResource);
-                add(mixinsResource, fixMixins);
+                add(mixinsResource);
+                add(utilitiesResource);
 
                 Dependency.superclass._addLessImports.apply(this, arguments);
             }
         };
-        
+
         return Dependency;
     });
