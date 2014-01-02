@@ -1,6 +1,7 @@
 {
     "raptor": {
         "dependencies": [
+            { "module": "rebootstrap/reset" },
             { "module": "rebootstrap/scaffolding" },
             { "module": "rebootstrap/grid" },
             { "module": "rebootstrap/type" },
