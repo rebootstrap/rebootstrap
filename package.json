@@ -1,11 +1,9 @@
 {
   "name": "rebootstrap",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [
     "ui",
     "components",
@@ -28,5 +26,6 @@
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
-  }
+  },
+  "ebay": {}
 }
