@@ -1,0 +1,8 @@
+{
+    "use": [],
+    "modules.dir": "src",
+    "modules.prefix": "rebootstrap",
+    "components.dir": "src",
+    "components.prefix": "rebootstrap/ui/components",
+    "rtld.file": "src/rebootstrap.rtld"
+}
