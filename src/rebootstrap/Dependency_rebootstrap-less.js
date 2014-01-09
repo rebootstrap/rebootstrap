@@ -57,10 +57,10 @@ define.Class(
                     variablesResource = resources.findResource(variablesPath)
                 }
                 else {
-                    variablesResource = resources.createFileResource(new File(__dirname, '../../node_modules/bootstrap/less/variables.less'));
+                    variablesResource = resources.createFileResource(new File(__dirname, '../../node_modules/rebootstrap-bootstrap/less/variables.less'));
                 }
 
-                mixinsResource = mixinsResource || resources.createFileResource(new File(__dirname, '../../node_modules/bootstrap/less/mixins.less'));
+                mixinsResource = mixinsResource || resources.createFileResource(new File(__dirname, '../../node_modules/rebootstrap-bootstrap/less/mixins.less'));
                 
 
                 function add(resource, preprocess) {

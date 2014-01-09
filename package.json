@@ -23,7 +23,7 @@
     ]
   },
   "dependencies": {
-    "bootstrap": "git://github.com/twbs/bootstrap.git#v2.3.2",
+    "rebootstrap-bootstrap": "~2.3.2",
     "less": "~1.3.3"
   },
   "publishConfig": {

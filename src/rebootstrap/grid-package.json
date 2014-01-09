@@ -1,7 +1,7 @@
 {
     "raptor": {
         "dependencies": [
-            { "type": "rebootstrap-less", "path": "../../node_modules/bootstrap/less/grid.less" }
+            { "type": "rebootstrap-less", "path": "../../node_modules/rebootstrap-bootstrap/less/grid.less" }
         ]
     }
 }
